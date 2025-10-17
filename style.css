@@ -1,0 +1,87 @@
+body {
+    background-image: url(image/pattern1.jpg);
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #000;
+    color: white;
+    padding: 15px 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.maintb {
+    margin: 0 auto; 
+    background-color: antiquewhite;
+    width: 90%;
+}
+
+.maintb, th, td {
+    border: 1px solid black;
+}
+
+
+.maintb th,
+.maintb td {
+    width: 33.33%;             /* 👈 প্রতিটি কলাম ১/৩ ভাগ */
+    border: 1px solid black;
+    vertical-align: top;       /* কনটেন্ট উপরে থাকবে */
+    padding: 10px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #d40000;
+    border-radius: 5px;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.c1 {
+    text-align: center;
+
+}
+
+.footer {
+    background-color: #000000;
+    font-weight: normal;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    margin-top: 50px;
+    
+}
+
+.lor1 {
+    text-align: justify;
+    font-weight: normal;
+    padding: 10px;
+}
